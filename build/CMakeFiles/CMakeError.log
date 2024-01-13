@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma failed with the following output:
+Change Dir: /workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fc91/fast && /usr/bin/make -f CMakeFiles/cmTC_6fc91.dir/build.make CMakeFiles/cmTC_6fc91.dir/build
+make[1]: Entering directory '/workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fc91.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -DFLAG_SUPPORTED_Wcomma   -Wcomma -o CMakeFiles/cmTC_6fc91.dir/src.c.o   -c /workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command line option '-Wcomma'; did you mean '-Wcomment'?
+make[1]: *** [CMakeFiles/cmTC_6fc91.dir/build.make:66: CMakeFiles/cmTC_6fc91.dir/src.c.o] Error 1
+make[1]: Leaving directory '/workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6fc91/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations failed with the following output:
+Change Dir: /workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eef8a/fast && /usr/bin/make -f CMakeFiles/cmTC_eef8a.dir/build.make CMakeFiles/cmTC_eef8a.dir/build
+make[1]: Entering directory '/workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eef8a.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -DFLAG_SUPPORTED_Wmissingvariabledeclarations   -Wmissing-variable-declarations -o CMakeFiles/cmTC_eef8a.dir/src.c.o   -c /workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+make[1]: *** [CMakeFiles/cmTC_eef8a.dir/build.make:66: CMakeFiles/cmTC_eef8a.dir/src.c.o] Error 1
+make[1]: Leaving directory '/workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_eef8a/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused failed with the following output:
+Change Dir: /workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07ee6/fast && /usr/bin/make -f CMakeFiles/cmTC_07ee6.dir/build.make CMakeFiles/cmTC_07ee6.dir/build
+make[1]: Entering directory '/workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07ee6.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -DFLAG_SUPPORTED_Wusedbutmarkedunused   -Wused-but-marked-unused -o CMakeFiles/cmTC_07ee6.dir/src.c.o   -c /workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command line option '-Wused-but-marked-unused'
+make[1]: *** [CMakeFiles/cmTC_07ee6.dir/build.make:66: CMakeFiles/cmTC_07ee6.dir/src.c.o] Error 1
+make[1]: Leaving directory '/workspaces/CEW-OEL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_07ee6/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
