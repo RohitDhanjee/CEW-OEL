@@ -1,0 +1,22 @@
+[{
+		"Name":	"Karachi",
+		"Region":	"Sindh",
+		"Country":	"Pakistan",
+		"Local Time":	"2024-01-13 13:35",
+		"Closest Time":	"2024-01-13 09:00",
+		"Temp_C":	20.2,
+		"Date":	"2024-01-13",
+		"MaxTemp_C":	24.5,
+		"AvgTemp_C":	20.8,
+		"AvgHumidity":	54
+	}, {
+		"Date":	"2024-01-12",
+		"MaxTemp_C":	24.9,
+		"AvgTemp_C":	20.5,
+		"AvgHumidity":	48
+	}, {
+		"Date":	"2024-01-11",
+		"MaxTemp_C":	24.8,
+		"AvgTemp_C":	20.3,
+		"AvgHumidity":	31
+	}]

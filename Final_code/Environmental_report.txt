@@ -1,0 +1,18 @@
+
+-----Environmental Report !!-----
+
+---> LOCATION:
+-> Name: Karachi
+-> Region: Sindh
+-> Country: Pakistan
+-> Local Time: 2024-01-13 13:35
+
+---> TEMPERATURE
+
+-> The temperature is within the range of 15C to 25C.
+-> Message: Cool Day! You Should wear warm Clothes.
+
+---> HUMIDITY
+
+-> The Humidity is within the range of 60 to 40. 
+-> Message: Humidity levels are stable and within the optimal range
